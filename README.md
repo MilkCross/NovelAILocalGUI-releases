@@ -13,6 +13,7 @@ NovelAILocalGUI は NovelAI の非公式クライアントです。NovelAI を�
 
 | ファイル | 内容 |
 |---|---|
+| [`EULA.md`](EULA.md) | 使用許諾契約書(利用規約)。製品版・体験版の両方に適用されます |
 | [`latest.json`](latest.json) | 最新バージョンの情報。アプリの「更新を確認」が参照します |
 | [Releases](../../releases) | アプリが使用しているオープンソースライブラリ(Qt / Qt for Python)のソースコード |
 
