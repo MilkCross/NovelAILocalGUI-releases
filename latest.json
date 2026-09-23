@@ -1,6 +1,6 @@
 {
-  "version": "v0.10.1",
+  "version": "v0.11.0",
   "released": "2026-09-23",
-  "notes": "LGPL対応のため、フォルダをまとめたzipでの配布に変更しました。",
+  "notes": "体験版を追加し、更新確認を改善しました。",
   "url": "https://github.com/MilkCross/NovelAILocalGUI-releases"
 }
