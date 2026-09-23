@@ -7,7 +7,7 @@ NovelAILocalGUI は NovelAI の非公式クライアントです。NovelAI を�
 
 ## 入手方法
 
-製品版・体験版とも、販売ページから入手できます(販売ページは準備中です)。
+製品版・体験版とも、BOOTH の販売ページから入手できます: https://zero0milk.booth.pm/items/8889836
 
 ## このリポジトリにあるもの
 
