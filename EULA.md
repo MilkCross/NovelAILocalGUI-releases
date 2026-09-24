@@ -46,6 +46,6 @@
 ## 第9条(準拠法)
 本契約は日本法に準拠し、日本法に従って解釈されます。
 
-お問い合わせ: BOOTH のショップ(https://zero0milk.booth.pm/)のメッセージ機能からご連絡ください。
+お問い合わせ: [BOOTH のショップ(https://zero0milk.booth.pm/)](https://zero0milk.booth.pm/)のメッセージ機能からご連絡ください。
 
 2026年9月23日 制定
