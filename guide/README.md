@@ -16,6 +16,7 @@ NovelAILocalGUI は、NovelAI の画像生成を Windows のデスクトップ�
 7. [設定](07-settings.md)
 8. [体験版と製品版・アップデート](08-editions-update.md)
 9. [よくある質問・困ったとき](09-faq.md)
+10. [コマンドライン版](10-cli.md)
 
 ## 画面の構成
 
