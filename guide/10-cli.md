@@ -51,6 +51,15 @@ GUI で API キーを設定していない場合は、先に設定します(入�
 
 保存した画像のパスが 1 行に 1 つ表示されます。
 
+### V5 の生成モード(節約)
+
+V5 Full では `--effort medium` で「節約」(14 ステップの高速モデル)になります(`high` が通常)。
+節約では、ステップ・サンプラー・ネガティブはサーバー側で固定されます。これらを指定すると注意が表示され、指定した値は使われません。
+
+```powershell
+.\NovelAILocalGUI-cli.exe gen -m v5 --effort medium -p "1girl, smile, -3::hat::"
+```
+
 ### 送信する前に確かめる
 
 `--dry-run` を付けると、内容と消費 Anlas の見積りを表示するだけで、送信しません。
@@ -130,7 +139,7 @@ information_extracted = 1.0
 .\NovelAILocalGUI-cli.exe gen --config .\job.toml
 ```
 
-書ける項目は、`model` `prompt` `negative_prompt` `width` `height` `steps` `scale` `cfg_rescale` `sampler` `noise_schedule`
+書ける項目は、`model` `effort`(`high` / `medium`) `prompt` `negative_prompt` `width` `height` `steps` `scale` `cfg_rescale` `sampler` `noise_schedule`
 `skip_cfg_diversity`(スケール多様性) `seed` `count` `boost` `ai_position` `image` `mask` `strength` `noise`、
 一覧の `characters`(`prompt` `negative_prompt` `position`)・`vibes`(`image` `strength` `information_extracted`)・
 `precise_references`(`image` `type` `strength` `fidelity`)、V3 の `controlnet`(`image` `type` `strength`)です。
